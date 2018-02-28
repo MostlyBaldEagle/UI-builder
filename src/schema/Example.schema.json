@@ -1,6 +1,4 @@
 [
-
-   # main 
    {
       "id": "main",
       "type":"Application",
@@ -12,7 +10,7 @@
         "login",
         "logout",
         {
-           "id":"center"
+           "id":"center",
            "type":"Application",
            "width":"",
            "height":"",
