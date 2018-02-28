@@ -1,0 +1,45 @@
+[
+
+   # main 
+   {
+      "id": "main",
+      "type":"Application",
+      "width":"",
+      "height":"",
+      "children":[
+        "header",
+        "navigation",
+        "login",
+        "logout",
+        {
+           "id":"center"
+           "type":"Application",
+           "width":"",
+           "height":"",
+           "children":["loggedin","router"]
+        },
+        "footer"
+      ]
+   },
+   {
+       "id":"header"
+   },
+   {
+       "id":"navigation"
+   },
+   {
+       "id":"footer"
+   },
+   {
+       "id":"login"
+   },
+   {
+       "id":"logout"
+   },
+   {
+       "id":"loggedin"
+   },
+   {
+       "id":"router"
+   } 
+]
